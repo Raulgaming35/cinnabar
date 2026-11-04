@@ -24,7 +24,7 @@ permissions:
 jobs:
   ipa:
     name: Build arm64 IPA
-    runs-on: macos-26
+    runs-on: macos-15
     timeout-minutes: 120
     env:
       # Parallel codegen without LTO keeps this build affordable.
